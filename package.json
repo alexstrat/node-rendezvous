@@ -1,0 +1,24 @@
+{
+  "author": "alexstrat",
+  "name": "rendezvous",
+  "description": "Utility tool to parse rendezvous expressions like 'today+3d@12:50' into Date",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alexstrat/node-rendezvous",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexstrat/node-rendezvous.git"
+  },
+  "main": "lib/index.js",
+  "scripts" : {
+        "test" : "node node_modules/tap/bin/tap.js test/*.js"
+  },
+  "engines": {
+    "node": ">=0.4.12"
+  },
+  "dependencies": {
+    "date-utils": "~1.2"
+    },
+  "devDependencies": {
+    "tap" : "0.2.x"
+  }
+}
