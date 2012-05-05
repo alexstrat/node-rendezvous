@@ -2,7 +2,7 @@ Utility tool to parse rendezvous expressions like 'today+3d@12:50' into Date obj
 
 ```bash
 § npm install rendezvous
-``
+```
 
 ### Examples
 
@@ -22,13 +22,13 @@ rdv('now+1d3h10m18')
 // Sun, 07 May 2012 12:31:30 GMT
 
 rdv('today@12:00')
-// Sat, 05 May 2012 10:00:00 GMT (i'm GMT+2)
+// Sat, 05 May 2012 10:00:00 GMT (i am GMT+2)
 
 rdv('today-4d@12:00')
-// Tue, 01 May 2012 10:00:00 GMT (i'm GMT+2)
+// Tue, 01 May 2012 10:00:00 GMT (i am GMT+2)
 
 rdv('today-4d@12:00+2h')
-// Tue, 01 May 2012 12:00:00 GMT (i'm GMT+2)
+// Tue, 01 May 2012 12:00:00 GMT (i am GMT+2)
 
 rdv.time('12:00:12:300')
 // 43212300 (number of milliseconds between 00:00:00:0000 and 12:00:12:300)
