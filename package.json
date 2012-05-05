@@ -2,7 +2,7 @@
   "author": "alexstrat",
   "name": "rendezvous",
   "description": "Utility tool to parse rendezvous expressions like 'today+3d@12:50' into Date",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/alexstrat/node-rendezvous",
   "repository": {
     "type": "git",
