@@ -1,4 +1,4 @@
-Utility tool to parse rendezvous expressions like 'today+3d@12:50' into Date objects.
+Utility tool to parse rendezvous expressions like `today+3d@12:50` into Date objects.
 
 ```bash
 $ npm install rendezvous
